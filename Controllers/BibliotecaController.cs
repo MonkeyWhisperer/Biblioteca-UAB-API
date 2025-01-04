@@ -3,7 +3,7 @@
 namespace Biblioteca.Controllers
 {
     [ApiController]
-    [Route("Biblioteca")]
+    [Route("Carti")]
     public class BibliotecaController : ControllerBase
     {
         private readonly ILogger<BibliotecaController> _logger;
